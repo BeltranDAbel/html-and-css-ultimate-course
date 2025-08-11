@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calendar Class</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Calendar Form Class</h1>
+      <section>
+        <h2>First way</h2>
+        <form action="">
+          <fieldset>
+            <legend>Calendar Form First Form</legend>
+
+            <div>
+              <!-- The for attribute is linked with the id of the input -->
+              <label for="hour">Hour</label>
+              <!-- The name attribute is for indicate the data name when it's submited -->
+              <input type="time" id="hour" name="hour" />
+            </div>
+
+            <div>
+              <label for="day">Day</label>
+              <input type="date" id="day" name="day" />
+            </div>
+
+            <div>
+              <label for="week">Week</label>
+              <input type="week" id="week" name="week" />
+            </div>
+
+            <div>
+              <label for="month">Month</label>
+              <input type="month" id="month" name="month" />
+            </div>
+
+            <div>
+              <input type="submit" value="Submit" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+
+      <section>
+        <h2>Second way</h2>
+        <form action="">
+          <fieldset>
+            <legend>Calendar Form Second Form</legend>
+
+            <div>
+              <label for="datetime-local">Date and Time</label>
+              <input type="datetime-local" id="datetime-local" name="datetime-local" />
+            </div>
+
+            <div>
+              <input type="submit" value="Submit" />
+            </div>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
