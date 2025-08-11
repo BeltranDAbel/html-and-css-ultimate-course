@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select Class</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Select using the select tag</h2>
+        <select name="select" id="select">
+          <option value="default" selected disabled>Select a programming language</option>
+          <option value="JavaScript">JavaScript</option>
+          <option value="HTML">HTML</option>
+          <option value="CSS">CSS</option>
+          <option value="Python">Python</option>
+        </select>
+      </section>
+
+      <section>
+        <h2>Select using the datalist tag</h2>
+        <input list="languages" name="language" id="language" placeholder="Select a programming language" />
+        <datalist id="languages">
+          <option value="JavaScript"></option>
+          <option value="HTML"></option>
+          <option value="CSS"></option>
+          <option value="Python"></option>
+        </datalist>
+      </section>
+    </main>
+  </body>
+</html>
