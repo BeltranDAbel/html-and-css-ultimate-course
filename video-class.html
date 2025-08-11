@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video Class</title>
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="./index.html">Home</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Videos in HTML</h1>
+      <section>
+        <!-- #t=3,7 indicates when the video starts and when ends to be played. -->
+        <video controls preload="auto">
+          <source src="./video/video.mp4#t=3,7" type="video/mp4" />
+          <source src="./video/video.webm#t=3,7" type="video/webm" />
+          <source src="./video/video.ogv#t=3,7" type="video/ogg" />
+          <p>Your browser does not support the video tag.</p>
+        </video>
+      </section>
+    </main>
+  </body>
+</html>
